@@ -58,7 +58,9 @@ RUN apk add --no-cache=true --update \
     zip \
     megatools \
     nodejs \
-    freetype-dev
+    freetype-dev \
+    p7zip \
+    unrar
 
 RUN python3 -m ensurepip \
     && pip3 install --upgrade pip setuptools \
